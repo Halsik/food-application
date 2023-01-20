@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/food-application/static/css/main.c613135c.css",
+    "main.js": "/food-application/static/js/main.24355082.js",
+    "static/media/backgroundImage.avif": "/food-application/static/media/backgroundImage.2abc6df1c152f185a6f0.avif",
+    "static/media/breakfastOne.avif": "/food-application/static/media/breakfastOne.3778ef64faedb8b1ec5b.avif",
+    "static/media/dinnerOne.avif": "/food-application/static/media/dinnerOne.84484fb613e3d1138e50.avif",
+    "static/media/breakfastThree.avif": "/food-application/static/media/breakfastThree.fd3c7711b709132b035d.avif",
+    "static/media/dinnerFive.avif": "/food-application/static/media/dinnerFive.52695dae03ee0eff39dc.avif",
+    "static/media/dessertTwo.avif": "/food-application/static/media/dessertTwo.3c2454cf87a47fa94b89.avif",
+    "static/media/lunchFour.avif": "/food-application/static/media/lunchFour.db00bfcc3242b7d3b490.avif",
+    "static/media/breakfastTwo.avif": "/food-application/static/media/breakfastTwo.a83dc402539042684f93.avif",
+    "static/media/lunchOne.avif": "/food-application/static/media/lunchOne.0bfd0feea6db2e5209eb.avif",
+    "static/media/dessertThree.avif": "/food-application/static/media/dessertThree.ee81c8e3b419b1dbfe21.avif",
+    "static/media/dinnerThree.avif": "/food-application/static/media/dinnerThree.7e9729d252b1043809fd.avif",
+    "static/media/dessertSix.avif": "/food-application/static/media/dessertSix.a9c00d05adb3e8ec13d8.avif",
+    "static/media/dinnerTwo.avif": "/food-application/static/media/dinnerTwo.3cd72d99e9d9e59ceab0.avif",
+    "static/media/dinnerFour.avif": "/food-application/static/media/dinnerFour.154679b178877fb3ce9c.avif",
+    "static/media/dessertOne.avif": "/food-application/static/media/dessertOne.b9a3e24b6001ad683b82.avif",
+    "static/media/dessertFive.avif": "/food-application/static/media/dessertFive.43be46c0d40264d8157a.avif",
+    "static/media/cotailsOne.avif": "/food-application/static/media/cotailsOne.7a8b90b7a5fb867c97a8.avif",
+    "static/media/lunchThree.avif": "/food-application/static/media/lunchThree.7cd071fa08391862d5f8.avif",
+    "static/media/coctailsTwo.avif": "/food-application/static/media/coctailsTwo.6e9987a371f21e609d48.avif",
+    "static/media/dessertFour.avif": "/food-application/static/media/dessertFour.66cb1f212af349e3a10f.avif",
+    "static/media/lunchTwo.avif": "/food-application/static/media/lunchTwo.6cb5e8e4c6d27fb8ec97.avif",
+    "static/media/coctailsThree.avif": "/food-application/static/media/coctailsThree.a6b2abcd732c7856eb6b.avif",
+    "static/media/breakfastFour.avif": "/food-application/static/media/breakfastFour.840bfcbed62960959205.avif",
+    "static/media/breakfastFive.avif": "/food-application/static/media/breakfastFive.20b60c5e7c66718f7e03.avif",
+    "index.html": "/food-application/index.html",
+    "main.c613135c.css.map": "/food-application/static/css/main.c613135c.css.map",
+    "main.24355082.js.map": "/food-application/static/js/main.24355082.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c613135c.css",
+    "static/js/main.24355082.js"
+  ]
+}
