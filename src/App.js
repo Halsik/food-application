@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Main from './components/MainPage/LeftSide/Main';
 import Menu from './components/Menu/Menu';
 import foodData from "./components/Menu/foodData"
@@ -39,7 +39,7 @@ function App() {
   return (
 
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path='/' element={
             <Main 
@@ -54,7 +54,7 @@ function App() {
             header={headerMeal}/>}/>
           
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       {/* <AddPage /> */}
     </div>
   );
