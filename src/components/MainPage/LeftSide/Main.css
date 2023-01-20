@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Marck+Script&display=swap');
+
+.main-container {
+    animation-name: showPage;
+    animation-duration: 1s;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.main-header-container {
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.main-header {
+    font-family: 'Marck Script', cursive;
+    margin-top: 10px;
+    font-size: 40px;
+    color: white;
+}
+
+.main-logo {
+    height: 70px;
+}
+
+.left-side {
+    background-color: #141414;
+    position: relative;
+    width: 50%;
+}
+
+.right-side {
+    width: 50%;
+}
+
+.main-button-container {
+    z-index: 1;
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.main-button {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    width: 250px;
+    height: 60px;
+    border-radius: 35px;
+    border: 3px solid #ECC30B;
+    background-color: #141414;
+    color: #ECC30B;
+    font-size: 20px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.main-button:hover {
+    color: #141414;
+    background-color: #ECC30B;
+    transform: scale(1.05);
+}
+
+.poster {
+    position: absolute;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.food-poster-current {
+    animation-duration: 4s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes showPage {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+
+
+@keyframes slidein {
+    from {
+      transform: translateX(-100%);  
+      opacity: 0;
+    }
+
+    15% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+  
+    50% {
+      opacity: 1;
+    }
+
+    85% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+  
+    to {
+        transform: translateX(-100%);
+      opacity: 0;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .right-side {
+        width: 100vw;
+       
+    }
+    .left-side {
+        width: 0%;
+    }
+  }
+
+
+
+

@@ -1,0 +1,102 @@
+.navbar-container {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    box-shadow: 0 0 7px rgb(74, 70, 70);
+}
+
+.navbar-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.3%;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.3%;
+}
+
+.navbar-logo-image {
+    height: 60px;
+    margin-right: 20px;
+}
+
+.navbar-logo-text {
+    text-shadow: #FC0 0 0 5px;
+    font-family: 'Marck Script', cursive;
+    font-size: 40px;
+}
+
+.navbar-header {
+    font-family: 'Marck Script', cursive;
+    font-size: 45px;
+    text-shadow: #FC0 0 0 5px;
+
+}
+
+.navbar-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.3%;
+}
+
+.navbar-back {
+    
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        width: 200px;
+        height: 50px;
+        border-radius: 35px;
+        border: 3px solid #ECC30B;
+        background-color: #141414;
+        color: #ECC30B;
+        font-size: 20px;
+        transition-duration: 0.2s;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+    
+.navbar-back:hover {
+        color: #141414;
+        background-color: #ECC30B;
+        transform: scale(1.05);
+    }
+
+
+    @media screen and (max-width: 800px) {
+        .navbar-button {
+            width: 0%;
+            visibility: hidden;
+        }
+
+        .navbar-section {
+            width: 0%;
+            visibility: hidden;
+        }
+
+        .navbar-logo {
+            
+            flex-direction: column;
+            width: 100%;
+            margin-top: 20px;
+           padding-bottom: 20px;
+        }
+
+        
+
+        .navbar-logo-image {
+            margin: 0;
+            height: 45px;
+        }
+
+        .navbar-logo-text {
+            font-size: 30px;
+        }
+        
+    }

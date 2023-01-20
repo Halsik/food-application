@@ -1,0 +1,149 @@
+.flip-exit {
+    transform: rotateY(0deg);
+    height: 700px;
+    width: 500px;
+   
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.flip-exit-active {
+    transition: transform 1s;
+    transition-timing-function:cubic-bezier(0.55, 0.055, 0.675, 0.60);
+    transform: rotateY(180deg);
+    height: 650px;
+    width: 500px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   border-radius: 10px;
+}
+
+.flip-exit-done {
+    transform: rotateY(180deg);
+    height: 650px;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.flip-enter {
+    transition-duration: 1s;
+    transform: rotateY(180deg);
+    height: 650px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.flip-enter-active {
+    transform: rotateY(0deg);
+    transition: transform 1s;
+    transition-timing-function:cubic-bezier(0.55, 0.055, 0.675, 0.);
+    height: 400px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.flip-enter-done {
+    transition-duration: 1s;
+    transform: rotateY(0deg);
+    height: 400px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.grow-exit {
+    overflow: hidden;
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    
+    z-index: 999;
+
+}
+
+.grow-exit-active {
+    transition-duration: 1s;
+    overflow-y: hidden;
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    border-radius: 10px;
+
+}
+
+.grow-exit-done {
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #141414;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
+
+}
+
+.grow-enter {
+    
+    border-radius: 10px;
+}
+
+.grow-enter-active {
+    border-radius: 10px;
+  
+}
+
+.grow-enter-done {
+    border-radius: 10px;
+  
+ 
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .flip-exit {
+        height: 60%;
+        width: 90%;
+    }
+
+    .flip-exit-active {
+        height: 60%;
+        width: 90%;
+    }
+
+    .flip-exit-done {
+        height: 60%;
+        width: 90%;
+    }
+
+}
